@@ -1,0 +1,92 @@
+body{
+  background-color: #ffffff;
+  box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.calculator {
+    padding: 20px;
+    border-radius: 2em;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border: solid rgb(224, 192, 192) 1px;
+    color: rgb(130, 24, 24);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #ffffff;
+    color: rgb(113, 83, 83);
+    font-size: 2rem;
+    border: solid rgb(197, 168, 168) 0.5px;
+    width: 60px;
+    border-radius: 30px;
+    height: 60px;
+    outline: none;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.r-button{
+  font-family: 'Orbitron', sans-serif;
+  background-color: #e6d9d0;
+  color: red;
+  font-size: 2rem;
+  border: solid rgb(19, 19, 19) 0.5px;
+  width: 60px;
+  border-radius: 30px;
+  height: 60px;
+  outline: none;
+  box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.g-button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border: solid rgb(25, 1, 1) 0.5px;
+    width: 60px;
+    border-radius: 30px;
+    height: 60px;
+    outline: none;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.button:active {
+    background: rgb(181, 167, 152);
+    -webkit-box-shadow: inset 0px 0px 5px white;
+    -moz-box-shadow: inset 0px 0px 5px white;
+    box-shadow: inset 0px 0px 5px white;
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.g-button:active {
+    background: rgb(183, 154, 154);
+    -webkit-box-shadow: inset 0px 0px 5px white;
+    -moz-box-shadow: inset 0px 0px 5px white;
+    box-shadow: inset 0px 0px 5px rgb(167, 130, 130);
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.r-button:active {
+    background: rgb(183, 154, 154);
+    -webkit-box-shadow: inset 0px 0px 5px white;
+    -moz-box-shadow: inset 0px 0px 5px rgb(48, 39, 39);
+    box-shadow: inset 0px 0px 5px rgb(216, 47, 47);
+    box-shadow: rgba(83, 56, 56, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
